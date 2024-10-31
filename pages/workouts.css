@@ -1,0 +1,132 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+body {
+background-color: #f4f4f9;
+color: #333;
+}
+header {
+background-color: #4caf50;
+color: #fff;
+padding: 1rem;
+}
+
+header .container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header h1 {
+font-size: 1.8rem;
+}
+
+header nav ul {
+list-style: none;
+display: flex;
+gap: 1rem;
+}
+
+header nav ul li a {
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+}
+main {
+max-width: 1200px;
+margin: 2rem auto;
+padding: 1rem;
+}
+
+.intro {
+text-align: center;
+margin: 2rem 0;
+}
+
+.intro h2 {
+color: #4caf50;
+font-size: 2rem;
+}
+
+.intro p {
+font-size: 1.1rem;
+color: #555;
+line-height: 1.6;
+}
+.workout {
+margin: 2rem 0;
+padding: 1.5rem;
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+
+.workout h3 {
+color: #4caf50;
+font-size: 1.5rem;
+margin-bottom: 0.5rem;
+}
+
+.workout p {
+color: #666;
+font-size: 1.1rem;
+line-height: 1.6;
+}
+
+.workout ul {
+margin-top: 1rem;
+padding-left: 1.5rem;
+}
+
+.workout ul li {
+margin: 0.5rem 0;
+font-size: 1rem;
+}
+
+.workout img {
+width: 100%;
+max-width: 500px;
+margin-top: 1rem;
+border-radius: 5px;
+}
+
+/* Pagination Styling */
+.pagination {
+display: flex;
+justify-content: center;
+margin-top: 2rem;
+}
+
+.pagination a {
+color: #4caf50;
+padding: 0.5rem 1rem;
+margin: 0 0.3rem;
+text-decoration: none;
+font-weight: bold;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+
+.pagination a:hover {
+background-color: #4caf50;
+color: #fff;
+}
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 1rem;
+margin-top: 2rem;
+}
+
+footer a {
+color: #4caf50;
+text-decoration: none;
+}
+
+footer a:hover {
+text-decoration: underline;
+}
